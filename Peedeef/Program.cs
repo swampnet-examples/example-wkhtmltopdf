@@ -29,9 +29,14 @@ namespace Peedeef
                 Objects =
                 {
                     new ObjectSettings
-                    {                        
-                        HtmlContent = html
+                    {
+                        HtmlContent = html                        
                     }
+                },
+                GlobalSettings = new GlobalSettings()
+                {
+                    DocumentTitle = "My dumb PDF document",
+                    Orientation = Orientation.Portrait                    
                 }
             });
         }
