@@ -190,6 +190,7 @@
     </PreBuildEvent>
   </PropertyGroup>
   <PropertyGroup>
-    <PostBuildEvent>xcopy "$(ProjectDir)lib\64\*.*" "$(TargetDir)" /Y</PostBuildEvent>
+    <PostBuildEvent>xcopy "$(ProjectDir)lib\64\*.*" "$(TargetDir)" /Y
+</PostBuildEvent>
   </PropertyGroup>
 </Project>

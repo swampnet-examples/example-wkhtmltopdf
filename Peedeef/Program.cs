@@ -23,13 +23,13 @@ namespace Peedeef
 
         private static byte[] BuildPdf(string html)
         {
-            var pdfConverter =new SynchronizedConverter(new PdfTools());
+            var pdfConverter = new SynchronizedConverter(new PdfTools());
             return pdfConverter.Convert(new HtmlToPdfDocument()
             {
                 Objects =
                 {
                     new ObjectSettings
-                    {
+                    {                        
                         HtmlContent = html
                     }
                 }
