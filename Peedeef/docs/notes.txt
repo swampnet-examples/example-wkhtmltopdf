@@ -1,0 +1,1 @@
+﻿- Set platform target to x64 and use 64 bit version of libwkhtmltox
